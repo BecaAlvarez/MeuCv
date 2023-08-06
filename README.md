@@ -1,7 +1,7 @@
 #### :construction: Projeto em Desenvolvimento :construction:
 
-## Challenge do Portfólio do Programa Bootcamp Alura + Oracle
-Este projeto faz parte do Challenge ONE Front-End Sprint 01 - Portfólio: Do Figma ao HTML e CSS Portfolio.
+## Challenge Portfólio - Programa Bootcamp Alura + Oracle
+Este projeto faz parte do Challenge ONE Front-End Portfólio: Do Figma ao HTML e CSS Portfolio.
 
 ## Tecnologias Utilizadas
 - Html
@@ -11,7 +11,8 @@ Este projeto faz parte do Challenge ONE Front-End Sprint 01 - Portfólio: Do Fig
 Modelo disponivel em [Figma](https://www.figma.com/file/Mv4mSxBHzB5caI7bW2tLv6/Challenge-Front-end-Portf%C3%B3lio?type=design&node-id=0%3A1&mode=design&t=AXMf9v8kfRXZSGym-1)
 <br/>
 <br/>
-#### Projetado por Rebeca Alvarez :construction_worker_woman: 
 
 ## :rocket: Deploy
-[Vercel]()
+[Vercel](https://rebeca-alvarez.vercel.app/)
+
+#### Projetado por Rebeca Alvarez :construction_worker_woman: 
