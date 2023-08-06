@@ -1,0 +1,30 @@
+.contanier-formacãoAcademica{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--color--cinza--medio);
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contanier-formacãoAcademica h2{
+    margin-top: 40px;
+    margin-bottom: 80px;
+    color: var(--color--vermelho--rosa);
+}
+
+.contanier-formacãoAcademica-small{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    
+}
+
+.contanier-single img{
+    border-radius: 8px;
+    margin: 20px 0;
+}
+

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    --color--cinza--light: #B9B7B7;
+    --color--cinza--claro: #848484;
+    --color--cinza--medio: #4D4D4D;
+    --color--cinza--escuro: #2F2F2F;
+    --color--vermelho--rosa: #F37979;
+    --color--branco: #ffffff;
+    --color--preto: #000000;
+}
+
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    display:inline-block;
+}
+
+   
+.contanier{
+    margin: 0 auto;
+    margin-top: 80px;
+}
+

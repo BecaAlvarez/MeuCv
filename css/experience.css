@@ -1,0 +1,40 @@
+.contanier-experiencia{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--color--cinza--medio);
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contanier-experiencia h2{
+    margin-top: 40px;
+    margin-bottom: 80px;
+    color: var(--color--vermelho--rosa);
+}
+
+.contanier-experiencia-small{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    
+}
+
+.contanier-single{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color--branco);
+}
+
+.contanier-single img{
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.contanier-single p{
+    margin-top: 10px;
+}
