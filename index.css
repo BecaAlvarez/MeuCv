@@ -20,8 +20,8 @@ body{
 }
 
    
-.contanier{
+main{
     margin: 0 auto;
-    margin-top: 80px;
+    z-index: 0;
 }
 
