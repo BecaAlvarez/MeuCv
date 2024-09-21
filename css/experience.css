@@ -43,15 +43,18 @@
     justify-content: center;
     align-items:flex-start;
     margin-top: 34%;
-    color: var(--color--branco);
+
 }
 
 .contanier-single img{
+    width: 200px;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .contanier-single p{
     margin-top: 5px;
+    color: var(--color--cinza--light);
 }
 
 
