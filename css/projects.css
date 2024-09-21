@@ -1,16 +1,24 @@
 .contanier-projects{
+    animation: gradient 8s ease infinite;
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: var(--color--cinza--claro);
+    background: linear-gradient(30deg, #000,#1C1C1C, #363636, #4F4F4F) no-repeat;
+    background-size: 300% 300%;
     justify-content: center;
     align-items: center;
     color: var(--color--black);
+    flex-wrap: wrap;
+    position: relative;
 }
 
 .contanier-projects h2{
     margin-top: 100px;
     margin-bottom: 20px;
+}
+
+.contanier-projects-small{
+    margin-top: 10%;
 }
 
 .contanier-projects-single{

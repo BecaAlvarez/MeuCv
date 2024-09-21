@@ -29,9 +29,12 @@ main{
     font-size: 2.5rem;
     font-weight: 800;
     color: var(--color--cinza--medio);
-    left: 180px;
+    left:10%;
     top: 100px;
     flex-wrap: wrap;
     position: absolute;
 }
 
+h3{
+    color: var(--color--vermelho--rosa);
+}
