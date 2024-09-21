@@ -111,7 +111,7 @@
         </section>
         <!--Experiencia-->
         <section class="contanier-group">
-            <section class="contanier-experience" id="Experience">
+            <article class="contanier-experience" id="Experience">
                 <p class="section-title">Experiência</p>
                 <div class="contanier-experience-small">
                     <div class="contanier-single">
@@ -129,9 +129,9 @@
                     </div>
                 </div>
                 
-            </section>
+            </article>
             <!--Formação Academica-->
-            <section class="contanier-academy" id="Education">
+            <article class="contanier-academy" id="Education">
                 <p class="section-title">Formação Acadêmica</p>
                 <div class="contanier-academy-small">
                     <div class="contanier-single">
@@ -141,13 +141,13 @@
                         <p>2014</p>
                     </div>
                     <div class="contanier-single">
-                        <img src="./assets/ufpa.png" alt="Universidade Federal do Pará"/>
+                        <img src="./assets/ufpa.png" alt="Universidade Federal do Pará" style="width: 200px;"/>
                         <h3>Engenharia da Computação</h3>
                         <p>Universidade Federal do Pará, UFPA</p>
                         <p>9ª semestre</p>
                     </div>
                 </div>
-            </section>
+            </article>
             <object
                 id="svg2"
                 type="image/svg+xml"
@@ -199,42 +199,66 @@
         </section>
         <!--Contato-->
         <section class="contanier-contact" id="contact">
-            <h2>Contato</h2>
-            <p>Quer entrar em contato comigo?</p>
-            <p>Preencha o formulário abaixo e entrarei em contato o mais rápido possível</p>
-            <form class="contanier-form" method="post" action="mailto:rebecaalvarez.ti@gmail.com" data-form>
-                <input 
-                placeholder="Nome" 
-                type="text" minlength="2" 
-                required 
-                data-name/>
-
-                <input 
-                placeholder="E-mail" 
-                type="email" 
-                minlength="4" 
-                required 
-                data-email/>
-
-                <input 
-                placeholder="Assunto" 
-                href="mailto:rebecaalvarez.ti@gmail.com?subject=subject text"
-                type="text" 
-                required 
-                data-title/>
-
-                <textarea 
-                placeholder="Mensagem" 
-                minlength="2" 
-                required 
-                data-textarea>
-                </textarea>
-
-                <button type="submit" data-btn>Enviar Mensagem</button>
-            </form>
+            <p class="section-title">Contato</p>
+            <h4>Quer entrar em contato comigo?</h4>
+            <div style="display: flex; flex-direction: row; width: 100%; justify-content: center;">
+                <article>
+                    <p>Preencha o formulário abaixo e entrarei em contato o mais rápido possível</p>
+                    <form class="contanier-form" method="post" action="mailto:rebecaalvarez.ti@gmail.com" data-form>
+                        <input 
+                        placeholder="Nome" 
+                        type="text" minlength="2" 
+                        required 
+                        data-name/>
+        
+                        <input 
+                        placeholder="E-mail" 
+                        type="email" 
+                        minlength="4" 
+                        required 
+                        data-email/>
+        
+                        <input 
+                        placeholder="Assunto" 
+                        href="mailto:rebecaalvarez.ti@gmail.com?subject=subject text"
+                        type="text" 
+                        required 
+                        data-title/>
+        
+                        <textarea 
+                        placeholder="Mensagem" 
+                        minlength="2" 
+                        required 
+                        data-textarea>
+                        </textarea>
+        
+                        <button type="submit" data-btn>Enviar Mensagem</button>
+                    </form>
+                </article>
+                <hr style=" transform: rotate(0deg); width: 1px; height: 100%;">
+                <article style="margin-left: 10%;">
+                    <p>Se preferir utilize as plataformas abaixo</p>
+                    <div>
+                        <i class="fa-solid fa-envelope" title="Email"></i>
+                        <p>rebecaalvarez.ti@gmail.com</p>
+                    </div>
+                    <div>
+                        <div>
+                            <i class="fa-solid fa-phone" title="Telefone"></i>
+                            <i class="fa-brands fa-telegram" title="Telegram"></i>
+                            <i class="fa-brands fa-whatsapp" title="Whatsapp"></i>
+                        </div>
+                        <p>091 XXXXX-XXXX</p>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-github" title="Github"></i>
+                        <p>rebecaalvarez.ti@gmail.com</p>
+                    </div>
+                </article>
+            </div>
         </section>
         <footer>
-            <p>Desenvolvido por Rebeca Alvarez - 2023</p>
+            <p>Desenvolvido por Rebeca Alvarez - 2024</p>
         </footer>
     </main>
 

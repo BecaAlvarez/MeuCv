@@ -10,6 +10,9 @@
     position: relative;
 }
 
+.contanier-skills p{
+    color: var(--color--cinza--medio);
+}
 
 .contanier-skills-small{
     width: 50%;
