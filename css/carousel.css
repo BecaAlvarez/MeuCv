@@ -1,0 +1,33 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+.carousel-content{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+   
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.3);
+    color: var(--color--vermelho--rosa);
+    border: 40px;
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  button.prev {
+    left: 20%;
+  }
+  
+  button.next {
+    right: 20%;
+  }
+
