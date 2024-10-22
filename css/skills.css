@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: var(--color--cinza--claro);
+    background-color: var(--color--cinza--escuro);
     height: 80vh;
     justify-content: center;
     align-items: center;
@@ -10,8 +10,8 @@
     position: relative;
 }
 
-.contanier-skills p{
-    color: var(--color--cinza--medio);
+.contanier-skills > p{
+    color: var(--color--cinza--light);
 }
 
 .contanier-skills-small{
@@ -38,19 +38,21 @@
     flex-direction: column;
     width: 160px;
     height: 140px;
-    background-color: #CCCCCC;
+    border: 1px solid var(--color--vermelho--rosa);
     border-radius: 20px;
     margin-top: 50px;
     margin-bottom: 40px;
     padding: 10px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    color: white;
 
     transition-property: background-color;
     transition-duration: 2s;
     transition-timing-function: ease-in-out;
     animation: contanierSkills 1s;
 }
+
 
 .contanier-skills-small div:hover{
     background-color: var(--color--branco);

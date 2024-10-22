@@ -44,7 +44,10 @@
                 <p class="section-title">Desenvolvedora <br> Frontend e Mobile</p>
                 <div class="presentation-infor">
                     <div>
-                        <h2>Olá, eu sou a <span>Rebeca Alvarez</span> !</h2>
+                        <div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between;">
+                            <hr style="border: 1px solid; width: 60%; height: 1px;">
+                            <h2>Rebeca Alvarez</h2>
+                        </div>
                         <nav class="presentation-nav-socialMedia" style="display: flex;">
                             <div><i class="fa-brands fa-github" size="24"></i><a href="https://github.com/BecaAlvarez" target="_blank">Github</a></div>
                             <div><i class="fa-brands fa-linkedin" size="24"></i><a href="https://www.linkedin.com/in/rebecaalvarezti/" target="_blank">Linkedin</a></div>
@@ -71,41 +74,42 @@
                         id="svg1"
                         type="image/svg+xml"
                         data="assets/skills.svg"
+                        alt="Mulher codificando"
                     ></object>
                 </div>
                 
                 <div class="contanier-skills-small">
                     <div>
                         <i class="devicon-illustrator-plain iconeSkills"></i>
-                        <h5>Adobe Illustrator</h5>
+                        <p>Adobe Illustrator</p>
                     </div>
                     <div>
                         <i class="devicon-figma-plain iconeSkills"></i>
-                        <h5>Figma</h5>
+                        <p>Figma</p>
                     </div>
                     <div>
                         <i class="devicon-html5-plain iconeSkills"></i>
-                        <h5>Html 5</h5>
+                        <p>Html 5</p>
                     </div>
                     <div>
                         <i class="devicon-css3-plain iconeSkills"></i>
-                        <h5>CSS</h5>
+                        <p>CSS</p>
                     </div>
                     <div>
                         <i class="devicon-javascript-plain iconeSkills"></i>
-                        <h5>Javascript</h5>
+                        <p>Javascript</p>
                     </div>
                     <div>
                         <i class="devicon-bootstrap-plain iconeSkills"></i>
-                        <h5>Bootstrap</h5>
+                        <p>Bootstrap</p>
                     </div>
                     <div>
                         <i class="devicon-react-original iconeSkills"></i>
-                        <h5>React e React Native</h5>
+                        <p>React JS</p>
                     </div>
                     <div> 
                         <i class="devicon-nodejs-plain iconeSkills"></i>
-                        <h5>NodeJS</h5>
+                        <p>NodeJS</p>
                     </div>
                 </div>
                 
@@ -116,13 +120,13 @@
                     <p class="section-title">Experiência</p>
                     <div class="contanier-experience-small">
                         <div class="contanier-single">
-                            <img src="./assets/pibic.png" alt="CNPQ-PIBIC"/>
+                            <img src="./assets/pibic.png" alt="CNPQ-PIBIC" alt="PIBIC"/>
                             <h3>Pesquisa e Extensão</h3>
                             <p>PIBIC - UFPA</p>
                             <p>2020 - 2021</p>
                         </div>
                         <div class="contanier-single">
-                            <img src="./assets/devspaidegua.png" alt="CNPQ-PIBIC"/>
+                            <img src="./assets/devspaidegua.png" alt="CNPQ-PIBIC" style="height: 90px;" alt="Projeto Devs Pai d'égua"/>
                             <h3>Ui/Ux e Desenvolvedora Mobile</h3>
                             <p>Projeto Dev Pai d'egua</p>
                             <p>Faculdade de Computação, UFPA</p>
@@ -142,7 +146,7 @@
                             <p>2014</p>
                         </div>
                         <div class="contanier-single">
-                            <img src="./assets/ufpa.png" alt="Universidade Federal do Pará" style="width: 200px;"/>
+                            <img src="./assets/ufpa.png" alt="Universidade Federal do Pará" style="width: 130px;"/>
                             <h3>Engenharia da Computação</h3>
                             <p>Universidade Federal do Pará, UFPA</p>
                             <p>9ª semestre</p>
@@ -153,6 +157,7 @@
                     id="svg2"
                     type="image/svg+xml"
                     data="assets/formacao.svg"
+                    alt="Mulher lendo livro"
                 >
                 </object>
             </section>
@@ -212,7 +217,6 @@
             <!--Contato-->
             <section class="contanier-contact" id="contact">
                 <p class="section-title">Contato</p>
-                <h4>Quer entrar em contato comigo?</h4>
                 <div style="display: flex; flex-direction: row; width: 100%; justify-content: center;">
                     <article>
                         <p>Preencha o formulário abaixo e entrarei em contato o mais rápido possível</p>
@@ -249,24 +253,34 @@
                     </article>
                     <hr style=" transform: rotate(0deg); width: 1px; height: 100%;">
                     <article style="margin-left: 10%;">
-                        <h4>Se preferir utilize as plataformas abaixo</h4>
+                        <p>Se preferir utilize as plataformas abaixo</p>
                         <div class="contanier-contacts">
-                            <div>
-                                <i class="fa-solid fa-envelope fa-2x" style="color:white" title="Email"></i>
-                                <p>rebecaalvarez.ti@gmail.com</p>
-                            </div>
-                            <div>
-                                <div style="color:white">
-                                    <i class="fa-solid fa-phone fa-2x" title="Telefone"></i>
-                                    <i class="fa-brands fa-telegram fa-2x" title="Telegram"></i>
-                                    <i class="fa-brands fa-whatsapp fa-2x" title="Whatsapp"></i>
+                            <div class="contanier-contacts-itens">
+                                <div>
+                                    <i class="fa-brands fa-github fa-2x" style="color:white" title="Github" alt="github"></i>
+                                    <p>rebecaalvarez.ti@gmail.com</p>
                                 </div>
-                                <p>091 XXXXX-XXXX</p>
+                                <div>
+                                    <i class="fa-solid fa-envelope fa-2x" style="color:white" title="Email"></i>
+                                    <p>rebecaalvarez.ti@gmail.com</p>
+                                </div>
+                                <div>
+                                    <div style="color:white" class="contanier-contacts-phone">
+                                        <i class="fa-solid fa-phone fa-2x" title="Telefone" alt="Telefone"></i>
+                                        <i class="fa-brands fa-telegram fa-2x" title="Telegram" alt="telegram"></i>
+                                        <i class="fa-brands fa-whatsapp fa-2x" title="Whatsapp" alt="whatsapp"></i>
+                                    </div>
+                                    <p>091 XXXXX-XXXX</p>
+                                </div>
                             </div>
-                            <div>
-                                <i class="fa-brands fa-github fa-2x" style="color:white" title="Github"></i>
-                                <p>rebecaalvarez.ti@gmail.com</p>
-                            </div>
+                            
+                            <object
+                                id="svg3"
+                                type="image/svg+xml"
+                                data="assets/contato.svg"
+                                alt="Atendente"
+                            >
+                            </object>
                         </div>
                     </article>
                 </div>
